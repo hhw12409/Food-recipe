@@ -1,10 +1,10 @@
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
+import { ImageBox } from '@components/ImageBox/ImageBox';
 
 export default function BasicCard({ row }: any): JSX.Element {
   return (
@@ -17,13 +17,12 @@ export default function BasicCard({ row }: any): JSX.Element {
           {row.RCP_PAT2}
         </Typography>
         <Typography variant="body2">
-          준비물:
-          {row.RCP_PARTS_DTLS}
+          <ImageBox src={row.ATT_FILE_NO_MAIN} width="100%" />
         </Typography>
       </CardContent>
       <CardActions>
         <Button size="small">
-          <Link to="/food">Learn More</Link>
+          <Link to={`/detail/${row.INFO_PRO}`}>How to make</Link>
         </Button>
       </CardActions>
     </Card>

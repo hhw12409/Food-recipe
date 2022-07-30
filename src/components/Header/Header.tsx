@@ -1,7 +1,7 @@
 import { Container } from './Header.styles';
 
-const Header = () => {
-  return <Container>냠냠 한식</Container>;
+const Header = ({ title, marginRight }: { title: string; marginRight?: string }) => {
+  return <Container marginRight={marginRight}>{title}</Container>;
 };
 
 export default Header;

@@ -2255,6 +2255,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-helmet@^6.1.5":
+  version "6.1.5"
+  resolved "https://registry.yarnpkg.com/@types/react-helmet/-/react-helmet-6.1.5.tgz#35f89a6b1646ee2bc342a33a9a6c8777933f9083"
+  integrity sha512-/ICuy7OHZxR0YCAZLNg9r7I9aijWUWvxaPR6uTuyxe8tAj5RL4Sw1+R6NhXUtOsarkGYPmaHdBDvuXh2DIN/uA==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-is@^16.7.1 || ^17.0.0":
   version "17.0.3"
   resolved "https://registry.yarnpkg.com/@types/react-is/-/react-is-17.0.3.tgz#2d855ba575f2fc8d17ef9861f084acc4b90a137a"
@@ -4089,34 +4096,15 @@ dot-case@^3.0.4:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
-dotenv-defaults@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/dotenv-defaults/-/dotenv-defaults-2.0.2.tgz#6b3ec2e4319aafb70940abda72d3856770ee77ac"
-  integrity sha512-iOIzovWfsUHU91L5i8bJce3NYK5JXeAwH50Jh6+ARUdLiiGlYWfGw6UkzsYqaXZH/hjE/eCd/PlfM/qqyK0AMg==
-  dependencies:
-    dotenv "^8.2.0"
-
 dotenv-expand@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-5.1.0.tgz#3fbaf020bfd794884072ea26b1e9791d45a629f0"
   integrity sha512-YXQl1DSa4/PQyRfgrv6aoNjhasp/p4qs9FjJ4q4cQk+8m4r6k4ZSiEyytKG8f8W9gi8WsQtIObNmKd+tMzNTmA==
 
-dotenv-webpack@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv-webpack/-/dotenv-webpack-8.0.0.tgz#bde8750eebda8fd1c6d7134f02bf56ad1f865772"
-  integrity sha512-vsWj11yWbIxLUPcQDbifCGW1+Mp03XfApFHJTC+/Ag9g3D/AnxoaVZcp76LpuBmReRwIJ+YO1fVdhmpzh+LL1A==
-  dependencies:
-    dotenv-defaults "^2.0.2"
-
 dotenv@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
   integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
-
-dotenv@^8.2.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.6.0.tgz#061af664d19f7f4d8fc6e4ff9b584ce237adcb8b"
-  integrity sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==
 
 duplexer@^0.1.2:
   version "0.1.2"
@@ -5007,11 +4995,6 @@ gzip-size@^6.0.0:
   integrity sha512-ax7ZYomf6jqPTQ4+XCpUGyXKHk5WweS+e05MBO4/y3WJ5RkmPXNKvX+bx1behVILVwr6JSQvZAku021CHPXG3Q==
   dependencies:
     duplexer "^0.1.2"
-
-hamt_plus@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/hamt_plus/-/hamt_plus-1.0.2.tgz#e21c252968c7e33b20f6a1b094cd85787a265601"
-  integrity sha512-t2JXKaehnMb9paaYA7J0BX8QQAY8lwfQ9Gjf4pg/mk4krt+cmwmU652HOoWonf+7+EQV97ARPMhhVgU1ra2GhA==
 
 handle-thing@^2.0.0:
   version "2.0.1"
@@ -7558,7 +7541,7 @@ prompts@^2.0.1, prompts@^2.4.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.6.2, prop-types@^15.8.1:
+prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -7691,6 +7674,21 @@ react-error-overlay@^6.0.11:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.11.tgz#92835de5841c5cf08ba00ddd2d677b6d17ff9adb"
   integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
 
+react-fast-compare@^3.1.1:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
+  integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
+
+react-helmet@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-6.1.0.tgz#a750d5165cb13cf213e44747502652e794468726"
+  integrity sha512-4uMzEY9nlDlgxr61NL3XbKRy1hEkXmKNXhjbAIOVw5vcFrsdYbH2FEwcNyWvWinl103nXgzYNlns9ca+8kFiWw==
+  dependencies:
+    object-assign "^4.1.1"
+    prop-types "^15.7.2"
+    react-fast-compare "^3.1.1"
+    react-side-effect "^2.1.0"
+
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -7790,6 +7788,11 @@ react-scripts@5.0.1:
   optionalDependencies:
     fsevents "^2.3.2"
 
+react-side-effect@^2.1.0:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.2.tgz#dc6345b9e8f9906dc2eeb68700b615e0b4fe752a"
+  integrity sha512-PVjOcvVOyIILrYoyGEpDN3vmYNLdy1CajSFNt4TDsVQC5KpTijDvWVoR+/7Rz2xT978D8/ZtFceXxzsPwZEDvw==
+
 react-transition-group@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.2.tgz#8b59a56f09ced7b55cbd53c36768b922890d5470"
@@ -7842,13 +7845,6 @@ readdirp@~3.6.0:
   integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
   dependencies:
     picomatch "^2.2.1"
-
-recoil@^0.7.4:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/recoil/-/recoil-0.7.4.tgz#d6508fa656d9c93e66fdf334e1f723a9e98801cf"
-  integrity sha512-sCXvQGMfSprkNU4ZRkJV4B0qFQSURJMgsICqY1952WRlg66NMwYqi6n67vhnhn0qw4zHU1gHXJuMvRDaiRNFZw==
-  dependencies:
-    hamt_plus "1.0.2"
 
 recursive-readdir@^2.2.2:
   version "2.2.2"
@@ -8656,11 +8652,6 @@ svgo@^2.7.0:
     csso "^4.2.0"
     picocolors "^1.0.0"
     stable "^0.1.8"
-
-sweetalert2@^11.4.24:
-  version "11.4.24"
-  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.4.24.tgz#9dbe1e3096d6fd739e03d5c5fe2d218638fceaf4"
-  integrity sha512-wbD3SbaOhWyebVfnrY9rMjjVf7ZKUHjmn5Ch83NWUg84b/SYn0N4F0Dhxq3QYSAbnAQ7ArovQb2JfxZi5+Ieug==
 
 symbol-tree@^3.2.4:
   version "3.2.4"

@@ -56,11 +56,7 @@ declare interface IRowReuslt {
 }
 
 declare interface IRow {
-  0: IRowReuslt;
-  1: IRowReuslt;
-  2: IRowReuslt;
-  3: IRowReuslt;
-  4: IRowReuslt;
+  [key: string]: IRowReuslt;
 }
 
 declare interface IRESULT {
